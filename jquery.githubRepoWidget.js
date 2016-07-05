@@ -85,7 +85,7 @@
 				$widget.find('.watchers').text(repo.watchers);
 				$widget.find('.forks').text(repo.forks);
 				$widget.find('.description span').text(repo.description);
-				$widget.find('.updated').html('Último commit ao branch <strong>' + repo.default_branch + '</strong> registrado em ' + pushed_at);
+				$widget.find('.updated').html('Último commit ao branch <strong>' + repo.default_branch + '</strong> registrado em ' + pushed_at.split("-").reverse().join("/"));
 
 				// Don't show "null" if the repo has no homepage URL.
 				if(repo.homepage != null) $widget.find('.link').append($('<a />').attr('href', repo.homepage).text(repo.homepage));
