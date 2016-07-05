@@ -16,4 +16,4 @@ Inclua o script após o carregamento do seu script JQuery:
 
 	<script type="text/javascript" src="jquery.githubRepoWidget.min.js"></script>
 
-Isso é tudo pessoal!
+Isso é tudo, pessoal!
